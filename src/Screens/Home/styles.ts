@@ -1,0 +1,50 @@
+import {StyleSheet} from 'react-native'
+
+export const styles = StyleSheet.create({
+    container:{
+      backgroundColor:"#131016",
+      flex:1,
+      padding:24
+  },
+    title:{
+      color:'#FDFCFE',
+      fontSize:24,
+      fontWeight:"bold",
+      marginTop:48
+    },
+    description:{
+      color:'#6B6B6B',
+      fontSize:16,
+    },
+    input:{
+      padding:16,
+      backgroundColor:"#1F1E25",
+      color:"#FFF",
+      borderRadius:5,
+      flex:1
+    },
+    button:{
+      backgroundColor:"#31CF67",
+      alignItems:'center',
+      padding:12,
+      width:56,
+      height:56,
+      borderRadius:5,
+    },
+    form:{
+      width:'100%',
+      flexDirection:'row',
+      gap:10,
+      marginTop:36,
+      marginBottom:42
+    },
+    noEmpy:{
+      color:"#fff",
+      fontSize:16,
+      backgroundColor:"#1F1E25",
+      padding:15,
+      textAlign:'center',
+      borderRadius:5
+    }
+
+  })
